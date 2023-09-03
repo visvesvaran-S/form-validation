@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="png-transparent-form-others-angle-text-photography-thumbnail.pngs">
+  </head>
+
+  <body class="animation">
+    <div class="scroll-bg">
+      <div class="formvalidation col-lg-6">
+        <div class="sigup">signup</div>
+        <form action="index1.html" id="myForm">
+          <div class="one">
+            <label for="name" class="name">Name</label>
+            <input required type="text" id="name" class="int box" />
+          </div>
+          <div class="two">
+            <label for="lastName" class="name">lastName</label>
+            <input required type="type" id="lastName" class="int box" />
+          </div>
+          <div class="three">
+            <label for="email" class="name">Email:</label>
+            <input required type="email" id="email" class="int box" />
+          </div>
+          <div class="four">
+            <label for="password" class="name">Password</label>
+            <input required type="password" id="password" class="int box" />
+          </div>
+          <div class="five">
+            <label for="confirmPassword" class="name text-wrap">
+              confirmpassword</label
+            >
+            <input
+              required
+              type="password"
+              id="confirmPassword"
+              class="int box"
+            />
+          </div>
+          <div class="six">
+            <input
+              required
+              type="submit"
+              onclick="formValidation()"
+              value="Submit"
+              class="int button col-sm-12"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="form.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
